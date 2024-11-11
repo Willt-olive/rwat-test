@@ -4,7 +4,7 @@ import {PcInformation} from './pcinformation';
   providedIn: 'root',
 })
 export class PcService {
-  url = 'http://localhost:3000/locations';
+  url = 'http://localhost:3000/computers';
 
   protected pcInformationList: PcInformation[] = [
  {
